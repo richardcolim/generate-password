@@ -79,7 +79,7 @@ body {
     border: 0;
     outline: 0;
     background-color: #019f55;
-    border-left: green;
+    border-left: 3px solid green;
     color: #fff;
     font-size: 22px;
     font-weight: 400;
