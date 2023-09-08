@@ -1,0 +1,91 @@
+/*
+//
+  create: @GreatStack
+  author: @richardbernardcolim
+  github: https://github.com/richardcolim
+//
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #002339;
+    color: #fff;
+}
+
+.information {
+    background-color: #0047AB;
+    padding: 10px;
+    border-left: 3px solid #00B0FF;
+    border-radius: 5px;
+}
+
+.information h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.information p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 12px;
+
+}
+
+.container,
+.information {
+    margin: 4%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.display {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 14px;
+    border-radius: 5px;
+}
+
+.display img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    width: 40%;
+}
+
+.container button img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background-color: #019f55;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+<!--
+//
+  create: @GreatStack
+  author: @richardbernardcolim
+  github: https://github.com/richardcolim
+//
+-->
+
+<!DOCTYPE html>
+<html lang="id-ID">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Password - Richard Application</title>
+    <meta name="description" content="website ini digunakan untuk agan-agan jika ingin mendapatkan password acak dengan sekali klik tombol generate password, password berisi karakter angka dan hanya 6 digit.">
+    <meta name="keywords" content="generate, password, random">
+    <meta name="author" content="Richard Bernard Colim">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="information">
+        <h2>Information</h2>
+         <p>Generate Password ini hanya menggunakan angka serta jumlah password adalah 6 digit, Anda dapat mengcopy password disebelah kanan.</p>
+    </div>
+    <div class="container">
+        <div class="display">
+            <input type="text" id="password" placeholder="Password" autocomplete="off">
+            <img src="images/copy.png" alt="copy" onclick="copyPassword()">
+        </div>
+        <button onclick="createPassword()"><img src="images/generate.png" alt="generatePassword">Generate Password</button>
+    </div>
+    <!-- My Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
