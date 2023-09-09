@@ -21,9 +21,3 @@ function copyPassword() {
     passwordBox.select();
     document.execCommand("copy");
 }
-
-/* =======================================================================================∞==================================== */
-window.addEventListener("load", () => {
-  const siteLoading = document.querySelector(".settings-loader");
-  siteLoading.classList.add("loader-hidden");
-  siteLoading.addEventListener("transitionend", () => {document.body.removeChild(siteLoading)});}); 
