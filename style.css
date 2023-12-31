@@ -15,19 +15,18 @@
 }
 
 body {
-    background-color: #002339;
-    color: #fff;
+    background-color: #fff;
+    color: #010101;
 }
 
 .information {
-    background-color: #0047AB;
+    background-color: #DCDCDC;
     padding: 10px;
-    border-left: 3px solid #00B0FF;
-    border-radius: 5px;
+    border-left: 5px solid #4682B4;
 }
 
 .information h2 {
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -76,7 +75,7 @@ body {
 .container button {
     border: 0;
     outline: 0;
-    background-color: #019f55;
+    background-color: #4682B4;
     color: #fff;
     font-size: 22px;
     font-weight: 400;
